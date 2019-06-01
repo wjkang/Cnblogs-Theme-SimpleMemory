@@ -742,9 +742,7 @@ function Base() {
             '</footer-background>' +
             '</footer>',
         rHref = 'https://github.com/'+window.cnblogsConfig.GhUserName+'/'+window.cnblogsConfig.GhRepositories+'/tree/'+window.cnblogsConfig.GhVersions;
-        footer.prepend(pvHtml).prepend(bgFooter).append(' / ThemeVersion: <a href="'+rHref
-                                +'" target="_blank" style="color: #888;text-decoration: underline;">'
-                                +(window.cnblogsConfig.GhVersions).substring(0,7)+'</a>');
+        footer.prepend(pvHtml).prepend(bgFooter);
 
         if (window.cnblogsConfig.themeAuthor && window.location.href.search("www.cnblogs.com/bndong") == -1 ) setTheme();
 
@@ -756,7 +754,7 @@ function Base() {
             var str = window.cnblogsConfig.blogStartDate;
             str = str ? str : '2016-11-17';
             var runDate = tools.getRunDate(str);
-            $('#blogRunTimeSpan').text('This blog has running : '+runDate.daysold+' d '+runDate.hrsold+' h '+runDate.minsold+' m '+runDate.seconds+' s');
+            $('#blogRunTimeSpan').text('此博客已开通 : '+runDate.daysold+' 天 '+runDate.hrsold+' 小时 '+runDate.minsold+' 分 '+runDate.seconds+' 秒');
         }
         function setBlogroll() {
             if (window.cnblogsConfig.bottomBlogroll.length > 0) {

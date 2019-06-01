@@ -77,7 +77,7 @@ if (initCheck()) {
         GhVersions: 'v1.1.2',
         GiteeUserName: 'jaycewu',
         GiteeRepositories: 'cnblogs-theme-simplememory',
-        blogUser: "",
+        blogUser: "若邪",
         blogAvatar: "",
         blogStartDate: "2019-01-01",
         menuCustomList: {},
@@ -170,8 +170,8 @@ if (initCheck()) {
         bottomBlogroll: [],
         bottomText: {
             icon: "❤️",
-            left: "图标左侧文字",
-            right: "图标右侧文字"
+            left: "面朝大海",
+            right: "春暖花开"
         },
         consoleList: [],
         themeAuthor: false,
