@@ -67,14 +67,16 @@ if (initCheck()) {
         '        <i class="scroll-down-icon iconfont icon-fanhui"></i>' +
         '    </a>' +
         '</div>' +
-        '<div id="loading"></div>'  +
+        '<div id="loading"></div>' +
         '<div id="bottomProgressBar"></div>' +
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'BNDong',
+        GhUserName: 'wjkang',
         GhRepositories: 'Cnblogs-Theme-SimpleMemory',
         GhVersions: 'v1.1.2',
+        GiteeUserName: 'jaycewu',
+        GiteeRepositories: 'cnblogs-theme-simplememory',
         blogUser: "",
         blogAvatar: "",
         blogStartDate: "2019-01-01",
@@ -152,7 +154,7 @@ if (initCheck()) {
             animateSections: true
         },
         homeTopImg: [
-            "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/home_top_bg.jpg"
+            "https://jaycewu.gitee.io/cnblogs-theme-simplememory/img/home_top_bg.jpg"
         ],
         homeBannerText: "",
         essayTopImg: [
@@ -173,23 +175,24 @@ if (initCheck()) {
         },
         consoleList: [],
         themeAuthor: false,
+        cdn: 'jsdelivr'
     };
 
-    window.cnblogsConfig = $.extend( true, window.cnblogsConfigDefault, window.cnblogsConfig );
+    window.cnblogsConfig = $.extend(true, window.cnblogsConfigDefault, window.cnblogsConfig);
 
     // set sidebar html
-    var url = window.location.href,tmp = [];
+    var url = window.location.href, tmp = [];
     tmp = url.split("/");
     var user = tmp[3];
-    var navListHtml = '<li><a href="https://www.cnblogs.com/'+user+'/" target="_self">首页</a></li>' +
-    '<li><a href="https://msg.cnblogs.com/send/'+user+'" target="_blank">联系</a></li>' +
-    '<li><a href="https://www.cnblogs.com/'+user+'/rss" target="_blank">订阅</a></li>' +
-    '<li><a href="https://i.cnblogs.com/" target="_blank">管理</a></li>';
+    var navListHtml = '<li><a href="https://www.cnblogs.com/' + user + '/" target="_self">首页</a></li>' +
+        '<li><a href="https://msg.cnblogs.com/send/' + user + '" target="_blank">联系</a></li>' +
+        '<li><a href="https://www.cnblogs.com/' + user + '/rss" target="_blank">订阅</a></li>' +
+        '<li><a href="https://i.cnblogs.com/" target="_blank">管理</a></li>';
 
     var menuNavList = window.cnblogsConfig.menuNavList;
     if (menuNavList.length > 0) {
         $.each(menuNavList, function (i) {
-            navListHtml += '<li><a href="'+(menuNavList[i][1])+'" target="_blank">'+(menuNavList[i][0])+'</a></li>';
+            navListHtml += '<li><a href="' + (menuNavList[i][1]) + '" target="_blank">' + (menuNavList[i][0]) + '</a></li>';
         });
     }
 
@@ -200,7 +203,7 @@ if (initCheck()) {
     if (window.cnblogsConfig.blogUser === "") window.cnblogsConfig.blogUser = user;
 
     // start cache
-    $.ajaxSetup({cache: true});
+    $.ajaxSetup({ cache: true });
 
     // load loadingJs
     $.getScript(getJsDelivrUrl('loading.js'), function () {
@@ -216,8 +219,8 @@ if (initCheck()) {
                     var staticResource = [
                         'optiscroll', 'ToProgress', 'rotate',
                         'snapSvg', 'classie', 'main4', 'tools'];
-                    require(staticResource, function() {
-                        require(['base'], function() {
+                    require(staticResource, function () {
+                        require(['base'], function () {
                             (new Base).init();
                         });
                     });
@@ -242,7 +245,7 @@ function initCheck() {
     var baseStyle = $('#mobile-style').attr('href');
     if (typeof baseStyle != 'undefined') {
         var bt = baseStyle.split('/');
-        if($.inArray('SimpleMemory', bt) !== -1) {
+        if ($.inArray('SimpleMemory', bt) !== -1) {
             return true;
         }
     }
@@ -252,27 +255,31 @@ function initCheck() {
 // get file url
 function getJsDelivrUrl(file, directory) {
     file = setFileNameMin(file, directory);
-    return 'https://cdn.jsdelivr.net/gh/'+(window.cnblogsConfig.GhUserName)+'/'+(window.cnblogsConfig.GhRepositories)+'@'+(window.cnblogsConfig.GhVersions)+'/' + (file ? file : '');
+    if (window.cnblogsConfig.cdn === "gitee") {
+        return 'https://' + (window.cnblogsConfig.GiteeUserName) + '.gitee.io/' + (window.cnblogsConfig.GiteeRepositories) + '/' + (file ? file : '');
+    } else {
+        return 'https://cdn.jsdelivr.net/gh/' + (window.cnblogsConfig.GhUserName) + '/' + (window.cnblogsConfig.GhRepositories) + '@' + (window.cnblogsConfig.GhVersions) + '/' + (file ? file : '');
+    }
 }
 
 // optimization file name
 function setFileNameMin(file, directory) {
     if (typeof file == 'undefined') return '';
-    var suffix  = null,fileArr = file.split('.');
-    if (fileArr.length > 0 && $.inArray(fileArr[(fileArr.length -1)], ['js', 'css']) !== -1) {
+    var suffix = null, fileArr = file.split('.');
+    if (fileArr.length > 0 && $.inArray(fileArr[(fileArr.length - 1)], ['js', 'css']) !== -1) {
         suffix = fileArr.pop();
         switch (suffix) {
-            case 'js':directory = 'script';break;
-            case 'css':directory = 'style';break;
+            case 'js': directory = 'script'; break;
+            case 'css': directory = 'style'; break;
         }
     } else {
         if (typeof directory == 'undefined') return '';
         switch (directory) {
-            case 'js':directory = 'script';break;
-            case 'css':directory = 'style';break;
+            case 'js': directory = 'script'; break;
+            case 'css': directory = 'style'; break;
         }
     }
-    file.search('.min') === -1 && fileArr.push('min');
+    file.search('.min') === -1 && window.cnblogsConfig.cdn !== "gitee" && fileArr.push('min');
     suffix != null && fileArr.push(suffix);
     return (typeof directory !== 'undefined' ? ('src/' + directory + '/' + fileArr.join('.')) : (fileArr.join('.')));
 }
