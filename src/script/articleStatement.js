@@ -83,7 +83,6 @@ $(document).ready(function () {
     } else {
         bottom_html += '';
     }
-    bottom_html += '<br>';
     if (window.cnblogsConfig.essaySuffix.supportHtml != "") {
         bottom_html += '<span style="font-weight: bold; white-space:nowrap;">声援博主</span>：' + window.cnblogsConfig.essaySuffix.supportHtml;
     } else {
