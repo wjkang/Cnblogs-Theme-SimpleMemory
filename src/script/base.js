@@ -589,7 +589,9 @@ function Base() {
             toUpDown = $("#toUpDown"),
             toUpDownI = $("#toUpDownI"),
             toUpDownSpan = $('.toUpDownSpan');
-
+        if (!toUpDown.length || !toUpDownI.length || !toUpDownSpan.length) {
+            return
+        }
         // 设置底部滚动条
         progressBar.setProgress(scrollPercent);
 
