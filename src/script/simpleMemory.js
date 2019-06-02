@@ -78,15 +78,15 @@ if (initCheck()) {
         GiteeUserName: 'jaycewu',
         GiteeRepositories: 'cnblogs-theme-simplememory',
         blogUser: "若邪",
-        blogAvatar: "",
-        blogStartDate: "2019-01-01",
+        blogAvatar: "https://pic.cnblogs.com/avatar/738362/20161029152559.png",
+        blogStartDate: "2015-03-31",
         menuCustomList: {},
         menuNavList: [],
-        webpageTitleOnblur: "(oﾟvﾟ)ノ Hi",
+        webpageTitleOnblur: "页面崩了！",
         webpageTitleOnblurTimeOut: 500,
-        webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
+        webpageTitleFocus: "(*´∇｀*) 咦！又好了！",
         webpageTitleFocusTimeOut: 1000,
-        webpageIcon: "",
+        webpageIcon: "https://jaycewu.site/favicon.png",
         fontIconExtend: "",
         progressBar: {
             id: 'top-progress-bar',
@@ -158,10 +158,9 @@ if (initCheck()) {
         ],
         homeBannerText: "",
         essayTopImg: [
-            "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-569548.png"
         ],
-        essayCodeHighlightingType: 'cnblogs',
-        essayCodeHighlighting: '',
+        essayCodeHighlightingType: 'highlightjs',
+        essayCodeHighlighting: 'monokai-sublime',
         essaySuffix: {
             aboutHtml: '',
             copyrightHtml: '',
