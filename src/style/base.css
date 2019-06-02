@@ -3318,7 +3318,7 @@ button {
     outline: none;
     cursor: pointer;
     /*background: #000 url(https://jaycewu.gitee.io/cnblogs-theme-simplememory/img/menu_bg.jpeg) 0 -195px no-repeat;*/
-    background: #000 url(https://jaycewu.gitee.io/cnblogs-theme-simplememory/img/menu_bg.jpeg) center no-repeat;
+    background: #000 url(https://jaycewu.gitee.io/cnblogs-theme-simplememory/img/menu_bg.jpeg) 0 -195px no-repeat;
     background-size: 100%;
 }
 
