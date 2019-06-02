@@ -3,6 +3,16 @@
  * https://www.cnblogs.com/bndong/
  * @author: BNDong, dbnuo@foxmail.com
  **/
+window.cnblogsConfig = {
+    cdn: "gitee",
+    menuNavList: [
+        ["Github", "https://github.com/wjkang"],
+        ["Blog", "https://jaycewu.site/"],
+        ["掘金", "https://juejin.im/user/57bab5a45bbb500063fd28bc/posts"],
+        ["Segmentfault", "https://segmentfault.com/blog/ruoxie"],
+        ["简书", "https://www.jianshu.com/u/1e9a94bda7fb"]
+    ]
+}
 if (initCheck()) {
     var sidebarHtml =
         '<div class="container">' +
