@@ -75,7 +75,7 @@ $(document).ready(function () {
     if (window.cnblogsConfig.essaySuffix.aboutHtml != "") {
         bottom_html += '<span style="font-weight: bold; white-space:nowrap;">关于博主</span>：' + window.cnblogsConfig.essaySuffix.aboutHtml;
     } else {
-        bottom_html += '<span style="font-weight: bold; white-space:nowrap;">关于博主</span>：编程路上的小学生，热爱技术，喜欢专研。评论和私信会在第一时间回复。或者<a href="http://msg.cnblogs.com/msg/send/' + tmp[3] + '" target="_blank">直接私信</a>我。';
+        bottom_html += '<span style="font-weight: bold; white-space:nowrap;">关于博主</span>：后端搬砖，业余前端。评论和私信会在第一时间回复。或者<a href="http://msg.cnblogs.com/msg/send/' + tmp[3] + '" target="_blank">直接私信</a>我。';
     }
     bottom_html += '<br>';
     if (window.cnblogsConfig.essaySuffix.copyrightHtml != "") {
@@ -87,7 +87,7 @@ $(document).ready(function () {
     if (window.cnblogsConfig.essaySuffix.supportHtml != "") {
         bottom_html += '<span style="font-weight: bold; white-space:nowrap;">声援博主</span>：' + window.cnblogsConfig.essaySuffix.supportHtml;
     } else {
-        bottom_html += '如果您觉得文章对您有帮助，可以点击文章右下角<strong><span style="color: #ff0000; font-size: 12pt;">【<a id="post-up" onclick="votePost(' + uid + ',\'Digg\')" href="javascript:void(0);">推荐</a>】</span></strong>一下。您的鼓励是博主的最大动力！';
+        bottom_html += '<span style="font-weight: bold; white-space:nowrap;">声援博主</span>：如果您觉得文章对您有帮助，可以点击文章右下角<strong><span style="color: #ff0000; font-size: 12pt;">【<a id="post-up" onclick="votePost(' + uid + ',\'Digg\')" href="javascript:void(0);">推荐</a>】</span></strong>一下。您的鼓励是博主的最大动力！';
     }
     bottom_html += '<br>';
     bottom_html += '</p>';
