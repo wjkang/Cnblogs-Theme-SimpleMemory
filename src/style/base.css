@@ -49,10 +49,10 @@ body {
     font-size: 12px;
     /*height: 100%;*/
     max-height: 100%;
-    font-family: "Merriweather","Open Sans","Microsoft Jhenghei","Microsoft Yahei",sans-serif;
+    font-family: "Merriweather", "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
     color: #3A4145;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern'1;
+    -o-font-feature-settings: 'kern'1;
     overflow: hidden;
     /*background: url(https://files.cnblogs.com/files/bndong/white_brick_wall.gif) rgb(255, 255, 255);*/
     /*background-attachment: fixed;*/
@@ -74,7 +74,7 @@ body:before {
 }
 
 /*body::-webkit-scrollbar {*/
-    /*display:none*/
+/*display:none*/
 /*}*/
 
 ::-moz-selection {
@@ -90,7 +90,8 @@ table {
     border-spacing: 0;
 }
 
-fieldset, img {
+fieldset,
+img {
     border: 0;
 }
 
@@ -98,7 +99,12 @@ li {
     list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-size: 100%;
     font-weight: normal;
 }
@@ -141,15 +147,17 @@ button {
     text-decoration: none;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px; /* Hacks targeting Firefox. */
-    line-height: 13px; /* Hacks targeting Firefox. */
+    font-size: 11px;
+    /* Hacks targeting Firefox. */
+    line-height: 13px;
+    /* Hacks targeting Firefox. */
     font-weight: 300;
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: none;
     border-radius: 0.3rem;
-    border: rgba(0,0,0,0.05) 0.1em solid;
+    border: rgba(0, 0, 0, 0.05) 0.1em solid;
     background: #5ba4e5;
 }
 
@@ -233,7 +241,9 @@ button {
     padding-top: 19px;
 }
 
-#navList a:link, #navList a:visited, #navList a:active {
+#navList a:link,
+#navList a:visited,
+#navList a:active {
     color: #6a6a6a;
     font-weight: bold;
 }
@@ -250,6 +260,7 @@ button {
     margin-right: 2px;
     text-align: right;
 }
+
 /*****home和头部结束**************************/
 
 /*****主页文章列表开始**************************/
@@ -335,7 +346,8 @@ button {
     clear: both;
 }
 
-.postTitle a:visited, .postTitle a:active {
+.postTitle a:visited,
+.postTitle a:active {
     color: #4A4A4A;
     transition: color 0.3s ease;
 }
@@ -356,7 +368,7 @@ button {
 }
 
 #topics .postTitle a:link {
-    text-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .postTitle a:hover {
@@ -371,7 +383,7 @@ button {
     padding: 10px 0;
     color: #3A4145;
     font-family: Merriweather, "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
-    font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    font-feature-settings: 'liga'1, 'onum'1, 'kern'1;
     margin: 0;
     font-size: 16px;
     line-height: 1.7em;
@@ -400,7 +412,9 @@ button {
     color: #9EABB3;
 }
 
-.postDesc a:link, .postDesc a:visited, .postDesc a:active {
+.postDesc a:link,
+.postDesc a:visited,
+.postDesc a:active {
     color: #666;
 }
 
@@ -417,6 +431,7 @@ button {
     float: right;
     margin: 0 auto 15px auto;
 }
+
 /*****主页文章列表开始**************************/
 
 /*****侧边栏开始********************************/
@@ -485,14 +500,28 @@ button {
     border: 1px solid #21759b;
 }
 
-.newsItem, .catListEssay, .catListLink, .catListNoteBook, .catListTag, .catListPostCategory, .catListPostArchive, .catListImageCategory, .catListArticleArchive, .catListView, .catListFeedback, .mySearch, .catListComment, .catListBlogRank, .catList, .catListArticleCategory {
+.newsItem,
+.catListEssay,
+.catListLink,
+.catListNoteBook,
+.catListTag,
+.catListPostCategory,
+.catListPostArchive,
+.catListImageCategory,
+.catListArticleArchive,
+.catListView,
+.catListFeedback,
+.mySearch,
+.catListComment,
+.catListBlogRank,
+.catList,
+.catListArticleCategory {
     background: #fff;
     margin-bottom: 35px;
     word-wrap: break-word;
 }
 
-.newsItem .catListTitle {
-}
+.newsItem .catListTitle {}
 
 /**日历控件样式开始**/
 
@@ -532,12 +561,15 @@ button {
     padding-top: 2px;
 }
 
-.Cal { /**日历容器table**/
+.Cal {
+    /**日历容器table**/
     border: none;
     color: #666;
 }
 
-#calendar table a:link, #calendar table a:visited, #calendar table a:active {
+#calendar table a:link,
+#calendar table a:visited,
+#calendar table a:active {
     font-weight: bold;
 }
 
@@ -546,7 +578,8 @@ button {
     text-decoration: none;
 }
 
-.CalTodayDay { /**今天日期样式**/
+.CalTodayDay {
+    /**今天日期样式**/
     background: #3671a5 !important;
     color: #FFF;
     font-weight: bold;
@@ -563,7 +596,10 @@ button {
     padding-bottom: 4px;
 }
 
-#calendar .CalNextPrev a:link, #calendar .CalNextPrev a:visited, #calendar .CalNextPrev a:active { /**上个月、下个月箭头样式**/
+#calendar .CalNextPrev a:link,
+#calendar .CalNextPrev a:visited,
+#calendar .CalNextPrev a:active {
+    /**上个月、下个月箭头样式**/
     font-weight: bold;
     padding-left: 10px;
     padding-right: 15px;
@@ -575,7 +611,8 @@ button {
     color: #5E5F63;
 }
 
-.CalTitle { /**日历年月头部样式**/
+.CalTitle {
+    /**日历年月头部样式**/
     background: #6293bb;
     width: 100%;
     height: 25px;
@@ -592,6 +629,7 @@ button {
     color: #5E5F63;
     font-family: "Comic Sans MS";
 }
+
 /**日历控件样式结束**/
 .catListTitle {
     font-weight: bold;
@@ -619,6 +657,7 @@ button {
 #sideBarMain li {
     line-height: 1.8;
 }
+
 /*****侧边栏结束********************************/
 
 
@@ -660,7 +699,9 @@ button {
     text-decoration: none;
 }
 
-#EntryTag a:link, #EntryTag a:visited, #EntryTag a:active {
+#EntryTag a:link,
+#EntryTag a:visited,
+#EntryTag a:active {
     color: #666;
 }
 
@@ -686,7 +727,9 @@ button {
     text-decoration: none;
 }
 
-#BlogPostCategory a:link, #BlogPostCategory a:visited, #BlogPostCategory a:active {
+#BlogPostCategory a:link,
+#BlogPostCategory a:visited,
+#BlogPostCategory a:active {
     color: #666;
 }
 
@@ -721,7 +764,9 @@ button {
     color: #A8A8A8;
 }
 
-.feedbackListSubtitle a:link, .feedbackListSubtitle a:visited, .feedbackListSubtitle a:active {
+.feedbackListSubtitle a:link,
+.feedbackListSubtitle a:visited,
+.feedbackListSubtitle a:active {
     color: #777;
     font-weight: bold;
 }
@@ -823,6 +868,7 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /*博客园评论框*/
 .comment_vote {
     padding-right: 10px;
@@ -920,12 +966,15 @@ button {
     background: #333;
 }
 
-#comment_form_container {
-}
+#comment_form_container {}
+
 /****查看文章页面开始*************************/
 
 /****列表页面开始******************************/
-.entrylistTitle, .PostListTitle, .thumbTitle { /**几个分类列表的标题样式**/
+.entrylistTitle,
+.PostListTitle,
+.thumbTitle {
+    /**几个分类列表的标题样式**/
     margin-top: 20px;
     height: 38px;
     line-height: 38px;
@@ -976,7 +1025,9 @@ button {
     width: 100%;
 }
 
-.entrylistPosttitle a:link, .entrylistPosttitle a:visited, .entrylistPosttitle a:active {
+.entrylistPosttitle a:link,
+.entrylistPosttitle a:visited,
+.entrylistPosttitle a:active {
     transition: all 0.4s linear 0s;
     background-color: rgba(0, 0, 0, 0);
     color: rgb(74, 74, 74);
@@ -1004,7 +1055,7 @@ button {
     padding: 10px 0;
     color: #3A4145;
     font-family: Merriweather, "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
-    font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    font-feature-settings: 'liga'1, 'onum'1, 'kern'1;
     margin: 0;
     font-size: 16px;
     line-height: 1.7em;
@@ -1029,7 +1080,9 @@ button {
     color: #9EABB3;
 }
 
-.entrylistItemPostDesc a:link, .entrylistItemPostDesc a:visited, .entrylistItemPostDesc a:active {
+.entrylistItemPostDesc a:link,
+.entrylistItemPostDesc a:visited,
+.entrylistItemPostDesc a:active {
     color: #666;
 }
 
@@ -1059,7 +1112,8 @@ button {
     color: #9EABB3;
 }
 
-.pager a, #nav_next_page a {
+.pager a,
+#nav_next_page a {
     display: inline-block;
     min-width: 18px;
     text-align: center;
@@ -1070,7 +1124,12 @@ button {
     transition: all 0.2s ease;
 }
 
-.pager a:link, .pager a:visited, .pager a:active, #nav_next_page a:link, #nav_next_page a:visited, #nav_next_page a:active {
+.pager a:link,
+.pager a:visited,
+.pager a:active,
+#nav_next_page a:link,
+#nav_next_page a:visited,
+#nav_next_page a:active {
     color: #9EABB3 !important;
 }
 
@@ -1082,7 +1141,8 @@ button {
     padding: 3px 5px;
 }
 
-.pager a:hover, #nav_next_page a:hover {
+.pager a:hover,
+#nav_next_page a:hover {
     background: #fff;
     color: #889093;
     border-color: #98a0a4;
@@ -1168,7 +1228,8 @@ button {
     float: left;
 }
 
-#Profile1_panelAdd input[type=text], #Profile1_txtContent {
+#Profile1_panelAdd input[type=text],
+#Profile1_txtContent {
     padding: 8px;
     margin-bottom: 10px;
     color: #555;
@@ -1178,7 +1239,8 @@ button {
     -webkit-border-radius: 3px;
 }
 
-#Profile1_panelAdd input[type=text]:hover, #Profile1_txtContent:hover {
+#Profile1_panelAdd input[type=text]:hover,
+#Profile1_txtContent:hover {
     color: #333;
     border-color: rgba(82, 168, 236, 0.8);
     outline: 0;
@@ -1188,7 +1250,8 @@ button {
     transition: all 0.4s linear 0s;
 }
 
-#Profile1_panelAdd input[type=text]:focus, #Profile1_txtContent:focus {
+#Profile1_panelAdd input[type=text]:focus,
+#Profile1_txtContent:focus {
     outline: 0;
     border-color: rgba(82, 168, 236, 0.8);
 }
@@ -1228,6 +1291,7 @@ button {
 .feedbackItem {
     margin-top: 30px;
 }
+
 /****列表页面结束******************************/
 
 /****相册页面开始******************************/
@@ -1245,6 +1309,7 @@ button {
     padding-right: 10px;
     margin-bottom: 30px;
 }
+
 /****相册页面开始******************************/
 
 
@@ -1272,1609 +1337,1613 @@ button {
 
 @-moz-keyframes my-face {
     2% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     4% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     6% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     8% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     10% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     12% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     14% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     16% {
-        -webkit-transform: translate(0,-.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-.5px) rotate(-1.5deg);
-        transform: translate(0,-.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -.5px) rotate(-1.5deg);
+        transform: translate(0, -.5px) rotate(-1.5deg)
     }
 
     18% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     20% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     22% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     24% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     26% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     28% {
-        -webkit-transform: translate(0,.5px) rotate(1.5deg);
-        -moz-transform: translate(0,.5px) rotate(1.5deg);
-        -ms-transform: translate(0,.5px) rotate(1.5deg);
-        -o-transform: translate(0,.5px) rotate(1.5deg);
-        transform: translate(0,.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(1.5deg);
+        -moz-transform: translate(0, .5px) rotate(1.5deg);
+        -ms-transform: translate(0, .5px) rotate(1.5deg);
+        -o-transform: translate(0, .5px) rotate(1.5deg);
+        transform: translate(0, .5px) rotate(1.5deg)
     }
 
     30% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     32% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     34% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     36% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     38% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     40% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     42% {
-        -webkit-transform: translate(0,2.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-1.5deg);
-        -o-transform: translate(0,2.5px) rotate(-1.5deg);
-        transform: translate(0,2.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-1.5deg);
+        transform: translate(0, 2.5px) rotate(-1.5deg)
     }
 
     44% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     46% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     48% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     50% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     52% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     54% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     56% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     58% {
-        -webkit-transform: translate(0,.5px) rotate(2.5deg);
-        -moz-transform: translate(0,.5px) rotate(2.5deg);
-        -ms-transform: translate(0,.5px) rotate(2.5deg);
-        -o-transform: translate(0,.5px) rotate(2.5deg);
-        transform: translate(0,.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, .5px) rotate(2.5deg);
+        -moz-transform: translate(0, .5px) rotate(2.5deg);
+        -ms-transform: translate(0, .5px) rotate(2.5deg);
+        -o-transform: translate(0, .5px) rotate(2.5deg);
+        transform: translate(0, .5px) rotate(2.5deg)
     }
 
     60% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     62% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     64% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     66% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     68% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     70% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     72% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     74% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     76% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     78% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     80% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     82% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     84% {
-        -webkit-transform: translate(0,1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,1.5px) rotate(2.5deg);
-        -o-transform: translate(0,1.5px) rotate(2.5deg);
-        transform: translate(0,1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(2.5deg);
+        -o-transform: translate(0, 1.5px) rotate(2.5deg);
+        transform: translate(0, 1.5px) rotate(2.5deg)
     }
 
     86% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     88% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     90% {
-        -webkit-transform: translate(0,2.5px) rotate(-.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-.5deg);
-        -o-transform: translate(0,2.5px) rotate(-.5deg);
-        transform: translate(0,2.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-.5deg);
+        transform: translate(0, 2.5px) rotate(-.5deg)
     }
 
     92% {
-        -webkit-transform: translate(0,.5px) rotate(-.5deg);
-        -moz-transform: translate(0,.5px) rotate(-.5deg);
-        -ms-transform: translate(0,.5px) rotate(-.5deg);
-        -o-transform: translate(0,.5px) rotate(-.5deg);
-        transform: translate(0,.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-.5deg);
+        -moz-transform: translate(0, .5px) rotate(-.5deg);
+        -ms-transform: translate(0, .5px) rotate(-.5deg);
+        -o-transform: translate(0, .5px) rotate(-.5deg);
+        transform: translate(0, .5px) rotate(-.5deg)
     }
 
     94% {
-        -webkit-transform: translate(0,2.5px) rotate(.5deg);
-        -moz-transform: translate(0,2.5px) rotate(.5deg);
-        -ms-transform: translate(0,2.5px) rotate(.5deg);
-        -o-transform: translate(0,2.5px) rotate(.5deg);
-        transform: translate(0,2.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(.5deg);
+        -o-transform: translate(0, 2.5px) rotate(.5deg);
+        transform: translate(0, 2.5px) rotate(.5deg)
     }
 
     96% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     98% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
-    0%,100% {
-        -webkit-transform: translate(0,0) rotate(0);
-        -moz-transform: translate(0,0) rotate(0);
-        -ms-transform: translate(0,0) rotate(0);
-        -o-transform: translate(0,0) rotate(0);
-        transform: translate(0,0) rotate(0)
+    0%,
+    100% {
+        -webkit-transform: translate(0, 0) rotate(0);
+        -moz-transform: translate(0, 0) rotate(0);
+        -ms-transform: translate(0, 0) rotate(0);
+        -o-transform: translate(0, 0) rotate(0);
+        transform: translate(0, 0) rotate(0)
     }
 }
 
 @-webkit-keyframes my-face {
     2% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     4% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     6% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     8% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     10% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     12% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     14% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     16% {
-        -webkit-transform: translate(0,-.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-.5px) rotate(-1.5deg);
-        transform: translate(0,-.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -.5px) rotate(-1.5deg);
+        transform: translate(0, -.5px) rotate(-1.5deg)
     }
 
     18% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     20% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     22% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     24% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     26% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     28% {
-        -webkit-transform: translate(0,.5px) rotate(1.5deg);
-        -moz-transform: translate(0,.5px) rotate(1.5deg);
-        -ms-transform: translate(0,.5px) rotate(1.5deg);
-        -o-transform: translate(0,.5px) rotate(1.5deg);
-        transform: translate(0,.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(1.5deg);
+        -moz-transform: translate(0, .5px) rotate(1.5deg);
+        -ms-transform: translate(0, .5px) rotate(1.5deg);
+        -o-transform: translate(0, .5px) rotate(1.5deg);
+        transform: translate(0, .5px) rotate(1.5deg)
     }
 
     30% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     32% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     34% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     36% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     38% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     40% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     42% {
-        -webkit-transform: translate(0,2.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-1.5deg);
-        -o-transform: translate(0,2.5px) rotate(-1.5deg);
-        transform: translate(0,2.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-1.5deg);
+        transform: translate(0, 2.5px) rotate(-1.5deg)
     }
 
     44% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     46% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     48% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     50% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     52% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     54% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     56% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     58% {
-        -webkit-transform: translate(0,.5px) rotate(2.5deg);
-        -moz-transform: translate(0,.5px) rotate(2.5deg);
-        -ms-transform: translate(0,.5px) rotate(2.5deg);
-        -o-transform: translate(0,.5px) rotate(2.5deg);
-        transform: translate(0,.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, .5px) rotate(2.5deg);
+        -moz-transform: translate(0, .5px) rotate(2.5deg);
+        -ms-transform: translate(0, .5px) rotate(2.5deg);
+        -o-transform: translate(0, .5px) rotate(2.5deg);
+        transform: translate(0, .5px) rotate(2.5deg)
     }
 
     60% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     62% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     64% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     66% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     68% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     70% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     72% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     74% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     76% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     78% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     80% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     82% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     84% {
-        -webkit-transform: translate(0,1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,1.5px) rotate(2.5deg);
-        -o-transform: translate(0,1.5px) rotate(2.5deg);
-        transform: translate(0,1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(2.5deg);
+        -o-transform: translate(0, 1.5px) rotate(2.5deg);
+        transform: translate(0, 1.5px) rotate(2.5deg)
     }
 
     86% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     88% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     90% {
-        -webkit-transform: translate(0,2.5px) rotate(-.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-.5deg);
-        -o-transform: translate(0,2.5px) rotate(-.5deg);
-        transform: translate(0,2.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-.5deg);
+        transform: translate(0, 2.5px) rotate(-.5deg)
     }
 
     92% {
-        -webkit-transform: translate(0,.5px) rotate(-.5deg);
-        -moz-transform: translate(0,.5px) rotate(-.5deg);
-        -ms-transform: translate(0,.5px) rotate(-.5deg);
-        -o-transform: translate(0,.5px) rotate(-.5deg);
-        transform: translate(0,.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-.5deg);
+        -moz-transform: translate(0, .5px) rotate(-.5deg);
+        -ms-transform: translate(0, .5px) rotate(-.5deg);
+        -o-transform: translate(0, .5px) rotate(-.5deg);
+        transform: translate(0, .5px) rotate(-.5deg)
     }
 
     94% {
-        -webkit-transform: translate(0,2.5px) rotate(.5deg);
-        -moz-transform: translate(0,2.5px) rotate(.5deg);
-        -ms-transform: translate(0,2.5px) rotate(.5deg);
-        -o-transform: translate(0,2.5px) rotate(.5deg);
-        transform: translate(0,2.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(.5deg);
+        -o-transform: translate(0, 2.5px) rotate(.5deg);
+        transform: translate(0, 2.5px) rotate(.5deg)
     }
 
     96% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     98% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
-    0%,100% {
-        -webkit-transform: translate(0,0) rotate(0);
-        -moz-transform: translate(0,0) rotate(0);
-        -ms-transform: translate(0,0) rotate(0);
-        -o-transform: translate(0,0) rotate(0);
-        transform: translate(0,0) rotate(0)
+    0%,
+    100% {
+        -webkit-transform: translate(0, 0) rotate(0);
+        -moz-transform: translate(0, 0) rotate(0);
+        -ms-transform: translate(0, 0) rotate(0);
+        -o-transform: translate(0, 0) rotate(0);
+        transform: translate(0, 0) rotate(0)
     }
 }
 
 @-o-keyframes my-face {
     2% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     4% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     6% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     8% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     10% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     12% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     14% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     16% {
-        -webkit-transform: translate(0,-.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-.5px) rotate(-1.5deg);
-        transform: translate(0,-.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -.5px) rotate(-1.5deg);
+        transform: translate(0, -.5px) rotate(-1.5deg)
     }
 
     18% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     20% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     22% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     24% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     26% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     28% {
-        -webkit-transform: translate(0,.5px) rotate(1.5deg);
-        -moz-transform: translate(0,.5px) rotate(1.5deg);
-        -ms-transform: translate(0,.5px) rotate(1.5deg);
-        -o-transform: translate(0,.5px) rotate(1.5deg);
-        transform: translate(0,.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(1.5deg);
+        -moz-transform: translate(0, .5px) rotate(1.5deg);
+        -ms-transform: translate(0, .5px) rotate(1.5deg);
+        -o-transform: translate(0, .5px) rotate(1.5deg);
+        transform: translate(0, .5px) rotate(1.5deg)
     }
 
     30% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     32% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     34% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     36% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     38% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     40% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     42% {
-        -webkit-transform: translate(0,2.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-1.5deg);
-        -o-transform: translate(0,2.5px) rotate(-1.5deg);
-        transform: translate(0,2.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-1.5deg);
+        transform: translate(0, 2.5px) rotate(-1.5deg)
     }
 
     44% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     46% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     48% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     50% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     52% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     54% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     56% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     58% {
-        -webkit-transform: translate(0,.5px) rotate(2.5deg);
-        -moz-transform: translate(0,.5px) rotate(2.5deg);
-        -ms-transform: translate(0,.5px) rotate(2.5deg);
-        -o-transform: translate(0,.5px) rotate(2.5deg);
-        transform: translate(0,.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, .5px) rotate(2.5deg);
+        -moz-transform: translate(0, .5px) rotate(2.5deg);
+        -ms-transform: translate(0, .5px) rotate(2.5deg);
+        -o-transform: translate(0, .5px) rotate(2.5deg);
+        transform: translate(0, .5px) rotate(2.5deg)
     }
 
     60% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     62% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     64% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     66% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     68% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     70% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     72% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     74% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     76% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     78% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     80% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     82% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     84% {
-        -webkit-transform: translate(0,1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,1.5px) rotate(2.5deg);
-        -o-transform: translate(0,1.5px) rotate(2.5deg);
-        transform: translate(0,1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(2.5deg);
+        -o-transform: translate(0, 1.5px) rotate(2.5deg);
+        transform: translate(0, 1.5px) rotate(2.5deg)
     }
 
     86% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     88% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     90% {
-        -webkit-transform: translate(0,2.5px) rotate(-.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-.5deg);
-        -o-transform: translate(0,2.5px) rotate(-.5deg);
-        transform: translate(0,2.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-.5deg);
+        transform: translate(0, 2.5px) rotate(-.5deg)
     }
 
     92% {
-        -webkit-transform: translate(0,.5px) rotate(-.5deg);
-        -moz-transform: translate(0,.5px) rotate(-.5deg);
-        -ms-transform: translate(0,.5px) rotate(-.5deg);
-        -o-transform: translate(0,.5px) rotate(-.5deg);
-        transform: translate(0,.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-.5deg);
+        -moz-transform: translate(0, .5px) rotate(-.5deg);
+        -ms-transform: translate(0, .5px) rotate(-.5deg);
+        -o-transform: translate(0, .5px) rotate(-.5deg);
+        transform: translate(0, .5px) rotate(-.5deg)
     }
 
     94% {
-        -webkit-transform: translate(0,2.5px) rotate(.5deg);
-        -moz-transform: translate(0,2.5px) rotate(.5deg);
-        -ms-transform: translate(0,2.5px) rotate(.5deg);
-        -o-transform: translate(0,2.5px) rotate(.5deg);
-        transform: translate(0,2.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(.5deg);
+        -o-transform: translate(0, 2.5px) rotate(.5deg);
+        transform: translate(0, 2.5px) rotate(.5deg)
     }
 
     96% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     98% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
-    0%,100% {
-        -webkit-transform: translate(0,0) rotate(0);
-        -moz-transform: translate(0,0) rotate(0);
-        -ms-transform: translate(0,0) rotate(0);
-        -o-transform: translate(0,0) rotate(0);
-        transform: translate(0,0) rotate(0)
+    0%,
+    100% {
+        -webkit-transform: translate(0, 0) rotate(0);
+        -moz-transform: translate(0, 0) rotate(0);
+        -ms-transform: translate(0, 0) rotate(0);
+        -o-transform: translate(0, 0) rotate(0);
+        transform: translate(0, 0) rotate(0)
     }
 }
 
 @keyframes my-face {
     2% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     4% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     6% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     8% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     10% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     12% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     14% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     16% {
-        -webkit-transform: translate(0,-.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-.5px) rotate(-1.5deg);
-        transform: translate(0,-.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -.5px) rotate(-1.5deg);
+        transform: translate(0, -.5px) rotate(-1.5deg)
     }
 
     18% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     20% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     22% {
-        -webkit-transform: translate(0,.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,.5px) rotate(-1.5deg);
-        -o-transform: translate(0,.5px) rotate(-1.5deg);
-        transform: translate(0,.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-1.5deg);
+        -moz-transform: translate(0, .5px) rotate(-1.5deg);
+        -ms-transform: translate(0, .5px) rotate(-1.5deg);
+        -o-transform: translate(0, .5px) rotate(-1.5deg);
+        transform: translate(0, .5px) rotate(-1.5deg)
     }
 
     24% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     26% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     28% {
-        -webkit-transform: translate(0,.5px) rotate(1.5deg);
-        -moz-transform: translate(0,.5px) rotate(1.5deg);
-        -ms-transform: translate(0,.5px) rotate(1.5deg);
-        -o-transform: translate(0,.5px) rotate(1.5deg);
-        transform: translate(0,.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, .5px) rotate(1.5deg);
+        -moz-transform: translate(0, .5px) rotate(1.5deg);
+        -ms-transform: translate(0, .5px) rotate(1.5deg);
+        -o-transform: translate(0, .5px) rotate(1.5deg);
+        transform: translate(0, .5px) rotate(1.5deg)
     }
 
     30% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     32% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     34% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     36% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     38% {
-        -webkit-transform: translate(0,1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,1.5px) rotate(-1.5deg);
-        transform: translate(0,1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-1.5deg);
+        transform: translate(0, 1.5px) rotate(-1.5deg)
     }
 
     40% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     42% {
-        -webkit-transform: translate(0,2.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-1.5deg);
-        -o-transform: translate(0,2.5px) rotate(-1.5deg);
-        transform: translate(0,2.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-1.5deg);
+        transform: translate(0, 2.5px) rotate(-1.5deg)
     }
 
     44% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     46% {
-        -webkit-transform: translate(0,-1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(2.5deg);
-        -o-transform: translate(0,-1.5px) rotate(2.5deg);
-        transform: translate(0,-1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(2.5deg);
+        -o-transform: translate(0, -1.5px) rotate(2.5deg);
+        transform: translate(0, -1.5px) rotate(2.5deg)
     }
 
     48% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     50% {
-        -webkit-transform: translate(0,.5px) rotate(.5deg);
-        -moz-transform: translate(0,.5px) rotate(.5deg);
-        -ms-transform: translate(0,.5px) rotate(.5deg);
-        -o-transform: translate(0,.5px) rotate(.5deg);
-        transform: translate(0,.5px) rotate(.5deg)
+        -webkit-transform: translate(0, .5px) rotate(.5deg);
+        -moz-transform: translate(0, .5px) rotate(.5deg);
+        -ms-transform: translate(0, .5px) rotate(.5deg);
+        -o-transform: translate(0, .5px) rotate(.5deg);
+        transform: translate(0, .5px) rotate(.5deg)
     }
 
     52% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     54% {
-        -webkit-transform: translate(0,-1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(1.5deg);
-        transform: translate(0,-1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(1.5deg);
+        transform: translate(0, -1.5px) rotate(1.5deg)
     }
 
     56% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     58% {
-        -webkit-transform: translate(0,.5px) rotate(2.5deg);
-        -moz-transform: translate(0,.5px) rotate(2.5deg);
-        -ms-transform: translate(0,.5px) rotate(2.5deg);
-        -o-transform: translate(0,.5px) rotate(2.5deg);
-        transform: translate(0,.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, .5px) rotate(2.5deg);
+        -moz-transform: translate(0, .5px) rotate(2.5deg);
+        -ms-transform: translate(0, .5px) rotate(2.5deg);
+        -o-transform: translate(0, .5px) rotate(2.5deg);
+        transform: translate(0, .5px) rotate(2.5deg)
     }
 
     60% {
-        -webkit-transform: translate(0,2.5px) rotate(2.5deg);
-        -moz-transform: translate(0,2.5px) rotate(2.5deg);
-        -ms-transform: translate(0,2.5px) rotate(2.5deg);
-        -o-transform: translate(0,2.5px) rotate(2.5deg);
-        transform: translate(0,2.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(2.5deg);
+        -o-transform: translate(0, 2.5px) rotate(2.5deg);
+        transform: translate(0, 2.5px) rotate(2.5deg)
     }
 
     62% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     64% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     66% {
-        -webkit-transform: translate(0,1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,1.5px) rotate(-.5deg);
-        -o-transform: translate(0,1.5px) rotate(-.5deg);
-        transform: translate(0,1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(-.5deg);
+        -o-transform: translate(0, 1.5px) rotate(-.5deg);
+        transform: translate(0, 1.5px) rotate(-.5deg)
     }
 
     68% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
     70% {
-        -webkit-transform: translate(0,1.5px) rotate(.5deg);
-        -moz-transform: translate(0,1.5px) rotate(.5deg);
-        -ms-transform: translate(0,1.5px) rotate(.5deg);
-        -o-transform: translate(0,1.5px) rotate(.5deg);
-        transform: translate(0,1.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(.5deg);
+        -o-transform: translate(0, 1.5px) rotate(.5deg);
+        transform: translate(0, 1.5px) rotate(.5deg)
     }
 
     72% {
-        -webkit-transform: translate(0,2.5px) rotate(1.5deg);
-        -moz-transform: translate(0,2.5px) rotate(1.5deg);
-        -ms-transform: translate(0,2.5px) rotate(1.5deg);
-        -o-transform: translate(0,2.5px) rotate(1.5deg);
-        transform: translate(0,2.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(1.5deg);
+        -o-transform: translate(0, 2.5px) rotate(1.5deg);
+        transform: translate(0, 2.5px) rotate(1.5deg)
     }
 
     74% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     76% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     78% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     80% {
-        -webkit-transform: translate(0,1.5px) rotate(1.5deg);
-        -moz-transform: translate(0,1.5px) rotate(1.5deg);
-        -ms-transform: translate(0,1.5px) rotate(1.5deg);
-        -o-transform: translate(0,1.5px) rotate(1.5deg);
-        transform: translate(0,1.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(1.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(1.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(1.5deg);
+        -o-transform: translate(0, 1.5px) rotate(1.5deg);
+        transform: translate(0, 1.5px) rotate(1.5deg)
     }
 
     82% {
-        -webkit-transform: translate(0,-.5px) rotate(.5deg);
-        -moz-transform: translate(0,-.5px) rotate(.5deg);
-        -ms-transform: translate(0,-.5px) rotate(.5deg);
-        -o-transform: translate(0,-.5px) rotate(.5deg);
-        transform: translate(0,-.5px) rotate(.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(.5deg);
+        -moz-transform: translate(0, -.5px) rotate(.5deg);
+        -ms-transform: translate(0, -.5px) rotate(.5deg);
+        -o-transform: translate(0, -.5px) rotate(.5deg);
+        transform: translate(0, -.5px) rotate(.5deg)
     }
 
     84% {
-        -webkit-transform: translate(0,1.5px) rotate(2.5deg);
-        -moz-transform: translate(0,1.5px) rotate(2.5deg);
-        -ms-transform: translate(0,1.5px) rotate(2.5deg);
-        -o-transform: translate(0,1.5px) rotate(2.5deg);
-        transform: translate(0,1.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, 1.5px) rotate(2.5deg);
+        -moz-transform: translate(0, 1.5px) rotate(2.5deg);
+        -ms-transform: translate(0, 1.5px) rotate(2.5deg);
+        -o-transform: translate(0, 1.5px) rotate(2.5deg);
+        transform: translate(0, 1.5px) rotate(2.5deg)
     }
 
     86% {
-        -webkit-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-1.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-1.5deg);
-        transform: translate(0,-1.5px) rotate(-1.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-1.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-1.5deg);
+        transform: translate(0, -1.5px) rotate(-1.5deg)
     }
 
     88% {
-        -webkit-transform: translate(0,-.5px) rotate(2.5deg);
-        -moz-transform: translate(0,-.5px) rotate(2.5deg);
-        -ms-transform: translate(0,-.5px) rotate(2.5deg);
-        -o-transform: translate(0,-.5px) rotate(2.5deg);
-        transform: translate(0,-.5px) rotate(2.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(2.5deg);
+        -moz-transform: translate(0, -.5px) rotate(2.5deg);
+        -ms-transform: translate(0, -.5px) rotate(2.5deg);
+        -o-transform: translate(0, -.5px) rotate(2.5deg);
+        transform: translate(0, -.5px) rotate(2.5deg)
     }
 
     90% {
-        -webkit-transform: translate(0,2.5px) rotate(-.5deg);
-        -moz-transform: translate(0,2.5px) rotate(-.5deg);
-        -ms-transform: translate(0,2.5px) rotate(-.5deg);
-        -o-transform: translate(0,2.5px) rotate(-.5deg);
-        transform: translate(0,2.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(-.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(-.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(-.5deg);
+        -o-transform: translate(0, 2.5px) rotate(-.5deg);
+        transform: translate(0, 2.5px) rotate(-.5deg)
     }
 
     92% {
-        -webkit-transform: translate(0,.5px) rotate(-.5deg);
-        -moz-transform: translate(0,.5px) rotate(-.5deg);
-        -ms-transform: translate(0,.5px) rotate(-.5deg);
-        -o-transform: translate(0,.5px) rotate(-.5deg);
-        transform: translate(0,.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, .5px) rotate(-.5deg);
+        -moz-transform: translate(0, .5px) rotate(-.5deg);
+        -ms-transform: translate(0, .5px) rotate(-.5deg);
+        -o-transform: translate(0, .5px) rotate(-.5deg);
+        transform: translate(0, .5px) rotate(-.5deg)
     }
 
     94% {
-        -webkit-transform: translate(0,2.5px) rotate(.5deg);
-        -moz-transform: translate(0,2.5px) rotate(.5deg);
-        -ms-transform: translate(0,2.5px) rotate(.5deg);
-        -o-transform: translate(0,2.5px) rotate(.5deg);
-        transform: translate(0,2.5px) rotate(.5deg)
+        -webkit-transform: translate(0, 2.5px) rotate(.5deg);
+        -moz-transform: translate(0, 2.5px) rotate(.5deg);
+        -ms-transform: translate(0, 2.5px) rotate(.5deg);
+        -o-transform: translate(0, 2.5px) rotate(.5deg);
+        transform: translate(0, 2.5px) rotate(.5deg)
     }
 
     96% {
-        -webkit-transform: translate(0,-.5px) rotate(1.5deg);
-        -moz-transform: translate(0,-.5px) rotate(1.5deg);
-        -ms-transform: translate(0,-.5px) rotate(1.5deg);
-        -o-transform: translate(0,-.5px) rotate(1.5deg);
-        transform: translate(0,-.5px) rotate(1.5deg)
+        -webkit-transform: translate(0, -.5px) rotate(1.5deg);
+        -moz-transform: translate(0, -.5px) rotate(1.5deg);
+        -ms-transform: translate(0, -.5px) rotate(1.5deg);
+        -o-transform: translate(0, -.5px) rotate(1.5deg);
+        transform: translate(0, -.5px) rotate(1.5deg)
     }
 
     98% {
-        -webkit-transform: translate(0,-1.5px) rotate(-.5deg);
-        -moz-transform: translate(0,-1.5px) rotate(-.5deg);
-        -ms-transform: translate(0,-1.5px) rotate(-.5deg);
-        -o-transform: translate(0,-1.5px) rotate(-.5deg);
-        transform: translate(0,-1.5px) rotate(-.5deg)
+        -webkit-transform: translate(0, -1.5px) rotate(-.5deg);
+        -moz-transform: translate(0, -1.5px) rotate(-.5deg);
+        -ms-transform: translate(0, -1.5px) rotate(-.5deg);
+        -o-transform: translate(0, -1.5px) rotate(-.5deg);
+        transform: translate(0, -1.5px) rotate(-.5deg)
     }
 
-    0%,100% {
-        -webkit-transform: translate(0,0) rotate(0);
-        -moz-transform: translate(0,0) rotate(0);
-        -ms-transform: translate(0,0) rotate(0);
-        -o-transform: translate(0,0) rotate(0);
-        transform: translate(0,0) rotate(0)
+    0%,
+    100% {
+        -webkit-transform: translate(0, 0) rotate(0);
+        -moz-transform: translate(0, 0) rotate(0);
+        -ms-transform: translate(0, 0) rotate(0);
+        -o-transform: translate(0, 0) rotate(0);
+        transform: translate(0, 0) rotate(0)
     }
 }
 
@@ -2883,10 +2952,12 @@ button {
 .personInfo {
     margin-bottom: 20px;
 }
+
 /*留言分页区域*/
 .pages {
     text-align: right;
 }
+
 /*****留言页面结束*****************************/
 /*****第三部分结束*******************************/
 
@@ -2900,7 +2971,8 @@ button {
     line-height: 1.6;
 }
 
-.postBody p, .postCon p {
+.postBody p,
+.postCon p {
     text-indent: 2em;
     margin: 0 auto 1em auto;
 }
@@ -2931,24 +3003,30 @@ button {
     color: #333;
 }
 
-.postBody a:link, .postBody a:visited, .postBody a:active {
+.postBody a:link,
+.postBody a:visited,
+.postBody a:active {
     /*text-decoration: underline;*/
 }
 
-.postCon a:link, .postCon a:visited, .postCon a:active {
+.postCon a:link,
+.postCon a:visited,
+.postCon a:active {
     /*text-decoration: underline;*/
     color: #9EABB3;
 }
 
-.postCon a:hover{
+.postCon a:hover {
     color: #98a0a4;
 }
 
-.postBody ul, .postCon ul {
+.postBody ul,
+.postCon ul {
     margin-left: 2em;
 }
 
-.postBody li, .postCon li {
+.postBody li,
+.postCon li {
     list-style-type: disc;
     margin-bottom: 1em;
 }
@@ -2960,6 +3038,7 @@ button {
     /*line-height: 1.6em;*/
     /*color: #333;*/
 }
+
 /*****第四部分结束*******************************/
 
 .myposts_title {
@@ -2980,7 +3059,7 @@ button {
     /*line-height: 1.7;*/
 }
 
-#cnblogs_post_body img{
+#cnblogs_post_body img {
     max-width: 700px;
 }
 
@@ -2991,7 +3070,7 @@ button {
 /* ==========================================================================
    顶部图片区域
    ========================================================================== */
-.main-header{
+.main-header {
     display: table;
     width: 100%;
     height: 100vh;
@@ -3006,7 +3085,7 @@ button {
     top: 0;
     left: 0;
     z-index: 998;
-    box-shadow: 0 1px 2px rgba(150,150,150,.7);
+    box-shadow: 0 1px 2px rgba(150, 150, 150, .7);
 }
 
 .inner {
@@ -3017,7 +3096,8 @@ button {
     padding: 10px;
 }
 
-.page-title, .sb-title {
+.page-title,
+.sb-title {
     margin: 10px 0 10px 0;
     letter-spacing: -1px;
     font-weight: 700;
@@ -3027,7 +3107,7 @@ button {
     animation: fade-in-down 1s both;
     -webkit-animation-delay: 0.6s;
     animation-delay: 0.5s;
-    text-shadow: 0 3px 6px rgba(0,0,0, 0.3);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .page-title {
@@ -3051,13 +3131,13 @@ button {
     line-height: 1.5em;
     font-weight: 400;
     letter-spacing: 0.01rem;
-    font-family: "Merriweather","Open Sans","Microsoft Jhenghei","Microsoft Yahei",sans-seri;
-    color: rgba(255,255,255,0.8);
+    font-family: "Merriweather", "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-seri;
+    color: rgba(255, 255, 255, 0.8);
     -webkit-animation: fade-in-down 0.9s;
     animation: fade-in-down 0.9s both;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.3s;
-    text-shadow: 0 3px 6px rgba(0,0,0, 0.5);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
     display: none;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 10;
@@ -3070,13 +3150,13 @@ button {
     line-height: 1.3em;
     font-weight: 400;
     letter-spacing: 0.01rem;
-    font-family: "Merriweather","Open Sans","Microsoft Jhenghei","Microsoft Yahei",sans-seri;
-    color: rgba(255,255,255,0.8);
+    font-family: "Merriweather", "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-seri;
+    color: rgba(255, 255, 255, 0.8);
     -webkit-animation: fade-in-down 0.9s;
     animation: fade-in-down 0.9s both;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.3s;
-    text-shadow: 0 3px 6px rgba(0,0,0, 0.5);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
     display: none;
 }
 
@@ -3100,7 +3180,7 @@ button {
 }
 
 .scroll-down-icon {
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 34px !important;
     position: relative;
     bottom: 7px;
@@ -3120,28 +3200,43 @@ button {
 }
 
 @-webkit-keyframes bounce {
-    0%, 10%, 25%, 40%, 50% {
+
+    0%,
+    10%,
+    25%,
+    40%,
+    50% {
         -webkit-transform: translateY(0) rotate(-90deg);
         transform: translateY(0) rotate(-90deg);
     }
+
     20% {
         -webkit-transform: translateY(-10px) rotate(-90deg);
         transform: translateY(-10px) rotate(-90deg);
     }
+
     30% {
         -webkit-transform: translateY(-5px) rotate(-90deg);
         transform: translateY(-5px) rotate(-90deg);
     }
 }
+
 @keyframes bounce {
-    0%, 10%, 25%, 40%, 50% {
+
+    0%,
+    10%,
+    25%,
+    40%,
+    50% {
         -webkit-transform: translateY(0) rotate(-90deg);
         transform: translateY(0) rotate(-90deg);
     }
+
     20% {
         -webkit-transform: translateY(-10px) rotate(-90deg);
         transform: translateY(-10px) rotate(-90deg);
     }
+
     30% {
         -webkit-transform: translateY(-5px) rotate(-90deg);
         transform: translateY(-5px) rotate(-90deg);
@@ -3154,18 +3249,21 @@ button {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
 }
+
 @keyframes fade-in-down {
     0% {
         opacity: 0;
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0);
@@ -3187,11 +3285,11 @@ button {
     border-bottom: #3B3B3B 1px solid;
     word-wrap: break-word;
     margin: 20px 0;
-    font-family: "Merriweather","Open Sans","Microsoft Jhenghei","Microsoft Yahei",sans-serif;
+    font-family: "Merriweather", "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
     display: none;
 }
 
-.m-list-title span{
+.m-list-title span {
     display: block;
     width: 60px;
     text-align: center;
@@ -3238,7 +3336,7 @@ button {
     height: 66px;
     border: 4px solid rgba(255, 255, 255, 0.5);
     border-radius: 100%;
-    box-shadow: inset 1px 1px 4px rgba(0,0,0,0.3), 0 2px 3px rgba(0,0,0,0.4);
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.3), 0 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 #introduce {
@@ -3256,7 +3354,10 @@ button {
     color: #fff !important;
 }
 
-#introduce a:active, #introduce a:hover, #introduce a:visited, #introduce a:link{
+#introduce a:active,
+#introduce a:hover,
+#introduce a:visited,
+#introduce a:link {
     text-decoration: none !important;
 }
 
@@ -3293,11 +3394,12 @@ button {
 }
 
 #topics {
-    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+    font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
     margin-top: 15px;
 }
 
-#cnblogs_post_body h6, blockquote {
+#cnblogs_post_body h6,
+blockquote {
     line-height: 20px;
     margin: 0 0 24px 0;
     padding: 1.3em;
@@ -3347,15 +3449,20 @@ blockquote p {
     margin-left: 1em;
 }
 
-.postBody li, .postCon li {
+.postBody li,
+.postCon li {
     margin-bottom: 0.5em;
 }
 
-.feedback_area_title, #commentform_title, .entrylistTitle {
+.feedback_area_title,
+#commentform_title,
+.entrylistTitle {
     border-bottom: none;
 }
 
-.feedback_area_title:after, #commentform_title:after, .entrylistTitle:after{
+.feedback_area_title:after,
+#commentform_title:after,
+.entrylistTitle:after {
     content: '';
     display: block;
     width: 100%;
@@ -3387,7 +3494,10 @@ blockquote p {
     font-size: 24px !important;
 }
 
-#toUpDown, #attention, #rightBuryit , #rightDiggit {
+#toUpDown,
+#attention,
+#rightBuryit,
+#rightDiggit {
     cursor: pointer;
     color: #555;
     opacity: 0.5;
@@ -3409,7 +3519,10 @@ blockquote p {
     bottom: 15px;
 }
 
-#toUpDown:hover, #attention:hover, #rightBuryit:hover, #rightDiggit:hover {
+#toUpDown:hover,
+#attention:hover,
+#rightBuryit:hover,
+#rightDiggit:hover {
     opacity: 1;
     filter: Alpha(opacity=100);
 }
@@ -3444,8 +3557,8 @@ blockquote p {
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
-    width: 96%!important;
-    max-width: 96%!important;
+    width: 96% !important;
+    max-width: 96% !important;
     background-color: #fff;
     border: 1px solid #dfe3ec;
     font-size: 14px;
@@ -3454,7 +3567,7 @@ blockquote p {
     padding: 0;
     border-right: 0;
     border-bottom: 0;
-    border-collapse: initial!important;
+    border-collapse: initial !important;
     margin-bottom: 10px;
 }
 
@@ -3496,7 +3609,7 @@ blockquote p {
     padding: 0 20px;
 }
 
-#cnblogs_post_body > p {
+#cnblogs_post_body>p {
     margin: 10px auto;
     text-indent: 2em;
 }
@@ -3526,26 +3639,30 @@ blockquote p {
     border-image: linear-gradient(to right, #f5f5f5, #eee);
     border-image-slice: 30;
 }
+
 /* ---------------------------------------- */
 .header__dev {
-    font-family: Lato,Arial,sans-serif;
-    font-weight: 300!important;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300 !important;
     position: absolute;
     transition-delay: .5s;
     z-index: 2;
-    margin: 0!important;
+    margin: 0 !important;
     color: #222 !important;
 }
+
 .header__span h1 {
-    font-size: 28px!important;
+    font-size: 28px !important;
     height: 28px;
-    line-height: 28px!important;
+    line-height: 28px !important;
 }
+
 .header__span h2 {
-    font-size: 20px!important;
+    font-size: 20px !important;
     height: 20px;
-    line-height: 20px!important;
+    line-height: 20px !important;
 }
+
 /* ---------------------------------------- */
 .dev__slash {
     font-weight: 300;
@@ -3554,20 +3671,38 @@ blockquote p {
     -webkit-transform: rotateZ(22deg);
     transform: rotateZ(22deg);
 }
+
 .header__span h1 .dev__slash {
     color: #5D69A5;
     top: -24px;
     left: 57px;
     font-size: 35px;
 }
+
+.header__span h3 .dev__slash {
+    color: #5D69A5;
+    top: -37px;
+    left: 57px;
+    font-size: 35px;
+}
+
 .header__span h2 .dev__slash {
     color: #85C7B0;
     top: -20px;
     left: 58px;
     font-size: 26px;
 }
+
+.header__span h4 .dev__slash {
+    color: #85C7B0;
+    top: -30px;
+    left: 58px;
+    font-size: 26px;
+}
+
 /* ---------------------------------------- */
-.dev__fe, .dev__ux {
+.dev__fe,
+.dev__ux {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -3575,18 +3710,46 @@ blockquote p {
     -webkit-transform: rotateZ(22deg);
     transform: rotateZ(22deg);
 }
+
 .dev__fe {
     text-align: right;
     direction: rtl;
     top: -68px;
     left: -40px;
 }
+
+h3 .dev__fe {
+    text-align: right;
+    direction: rtl;
+    top: -57px;
+    left: -40px;
+}
+
+h4 .dev__fe {
+    text-align: right;
+    direction: rtl;
+    top: -56px;
+    left: -40px;
+}
+
 .dev__ux {
     left: 66px;
     top: -57px;
 }
+
+.dev__ux {
+    left: 62px;
+    top: -57px;
+}
+
+h4 .dev__ux {
+    left: 62px;
+    top: -56px;
+}
+
 /* ---------------------------------------- */
-.dev__fe i, .dev__ux i {
+.dev__fe i,
+.dev__ux i {
     font-style: normal;
     position: absolute;
     width: 100px;
@@ -3597,26 +3760,31 @@ blockquote p {
     transform: rotateZ(-22deg);
     color: #333;
 }
+
 .header__span h1 .dev__fe i {
     text-indent: -9px;
     top: 13px;
     right: 0;
 }
+
 .header__span h2 .dev__fe i {
     text-indent: -7px;
     top: 12px;
     right: 0;
 }
+
 .header__span h1 .dev__ux i {
     text-indent: -6px;
     top: 2px;
     left: -3px;
 }
+
 .header__span h2 .dev__ux i {
     text-indent: -8px;
     top: 0;
     left: 0;
 }
+
 /* ---------------------------------------- */
 .dev__developer {
     position: absolute;
@@ -3624,48 +3792,88 @@ blockquote p {
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: bold;
-    font-family: "Open Sans","Microsoft Jhenghei","Microsoft Yahei",sans-serif;
+    font-family: "Open Sans", "Microsoft Jhenghei", "Microsoft Yahei", sans-serif;
 }
+
 .header__span h1 .dev__developer {
     top: -20px;
     left: 94px;
     min-height: 34px;
 }
+
 .header__span h2 .dev__developer {
     top: -17px;
     left: 94px;
     min-height: 24px;
 }
+
+.header__span h3 .dev__developer {
+    top: -19px;
+    left: 78px;
+    min-height: 24px;
+}
+
+.header__span h4 .dev__developer {
+    top: -18px;
+    left: 78px;
+    min-height: 24px;
+}
+
 /* ---------------------------------------- */
-.dev__fe, .dev__ux, .dev__fe i, .dev__ux i, .dev__developer, .dev__slash {
+.dev__fe,
+.dev__ux,
+.dev__fe i,
+.dev__ux i,
+.dev__developer,
+.dev__slash {
     transition: all 0.6s cubic-bezier(0.555, -0.375, 0, 1.615);
 }
 
-.header__dev--open .dev__fe i, .header__dev--open .dev__ux i {
+.header__dev--open .dev__fe i,
+.header__dev--open .dev__ux i {
     text-indent: 5px !important;
 }
+
 .header__dev--open .dev__developer {
     -webkit-transform: translateX(15px);
     transform: translateX(15px);
     opacity: .6;
 }
+
 .header__dev--open .dev__slash {
     -webkit-transform: scale(0.9) rotateZ(0deg);
     transform: scale(0.9) rotateZ(0deg);
 }
 
-.header__dev--slow .dev__fe, .header__dev--slow .dev__ux, .header__dev--slow .dev__fe i, .header__dev--slow .dev__ux i, .header__dev--slow .dev__developer, .header__dev--slow .dev__slash {
+.header__dev--slow .dev__fe,
+.header__dev--slow .dev__ux,
+.header__dev--slow .dev__fe i,
+.header__dev--slow .dev__ux i,
+.header__dev--slow .dev__developer,
+.header__dev--slow .dev__slash {
     transition: all 1.2s cubic-bezier(0.555, -0.375, 0, 1.615);
 }
 
 /* ==========================================================================
    隐藏不需要部分
    ========================================================================== */
-#header, .catListTitle, #profile_block, #blog-calendar, #leftcontentcontainer, #blog-calendar {
+#header,
+.catListTitle,
+#profile_block,
+#blog-calendar,
+#leftcontentcontainer,
+#blog-calendar {
     display: none !important;
 }
 
-#under_post_kb, #ad_t1, #ad_t2, #ad_c1, #ad_c2, #under_post_news, #cnblogs_c1, #cnblogs_c2 {
+#under_post_kb,
+#ad_t1,
+#ad_t2,
+#ad_c1,
+#ad_c2,
+#under_post_news,
+#cnblogs_c1,
+#cnblogs_c2 {
     display: none;
 }
 
@@ -3693,25 +3901,26 @@ span.cnblogs_code {
     position: relative;
     bottom: 1px;
 }
+
 .cnblogs_code {
     line-height: 20px;
     margin: 0 auto;
-    font-size: 14px!important;
+    font-size: 14px !important;
     padding: 0;
     background-color: transparent;
     position: relative;
     overflow: hidden;
     border: 0;
-    font-family: "Source Code Pro",Consolas,Menlo,Monaco,"Courier New",monospace!important;
+    font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Courier New", monospace !important;
     font-weight: 400;
     z-index: 10
 }
 
 .cnblogs_code pre {
-    font-size: 14px!important;
+    font-size: 14px !important;
     /*word-wrap: break-word;*/
     /*white-space: pre-wrap;*/
-    font-family: "Source Code Pro",Consolas,Menlo,Monaco,"Courier New",monospace !important;
+    font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Courier New", monospace !important;
     font-weight: 400;
     padding: 10px !important;
     white-space: pre;
@@ -3723,7 +3932,7 @@ span.cnblogs_code {
 }
 
 .cnblogs_code span {
-    font-family: "Source Code Pro",Consolas,Menlo,Monaco,"Courier New",monospace !important;
+    font-family: "Source Code Pro", Consolas, Menlo, Monaco, "Courier New", monospace !important;
     font-size: 14px !important;
     font-weight: 400;
 }
@@ -3766,22 +3975,29 @@ span.cnblogs_code {
     /*opacity: 0.3;*/
 }
 
-.code_img_closed , .code_img_opened{
+.code_img_closed,
+.code_img_opened {
     cursor: pointer;
 }
 
-.cnblogs_code_toolbar a:hover,.cnblogs_code_toolbar a:link,.cnblogs_code_toolbar a:visited,.cnblogs_code_toolbar a:active,.cnblogs_code_toolbar a:link img,.cnblogs_code_toolbar a:visited img {
-    background-color: transparent!important;
-    border: none!important;
+.cnblogs_code_toolbar a:hover,
+.cnblogs_code_toolbar a:link,
+.cnblogs_code_toolbar a:visited,
+.cnblogs_code_toolbar a:active,
+.cnblogs_code_toolbar a:link img,
+.cnblogs_code_toolbar a:visited img {
+    background-color: transparent !important;
+    border: none !important;
 }
 
-.cnblogs-markdown code, .cnblogs-post-body code {
+.cnblogs-markdown code,
+.cnblogs-post-body code {
     padding: 2px 4px !important;
     color: #d83b64;
     background-color: #f9f2f4 !important;
     border-radius: 3px !important;
     border: 0 !important;
-    text-indent: 0!important;
+    text-indent: 0 !important;
     position: relative;
     bottom: 1px;
 }
@@ -3793,7 +4009,8 @@ span.cnblogs_code {
     display: none !important;
 }
 
-body>meting-js, #aplayer {
+body>meting-js,
+#aplayer {
     -webkit-transform: translateZ(0);
 }
 
@@ -3816,12 +4033,12 @@ body>meting-js, #aplayer {
     width: 100%;
 }
 
-#tbCommentAuthor{
+#tbCommentAuthor {
     border: 0;
     background-color: #fff;
 }
 
-.comment-avatar{
+.comment-avatar {
     width: 48px;
     height: 48px;
     border: 1px solid #dcd6b3;
@@ -3834,7 +4051,7 @@ body>meting-js, #aplayer {
     transition: all 0.5s ease-out;
 }
 
-.comment-avatar:hover{
+.comment-avatar:hover {
     -webkit-transform: rotateZ(360deg);
     -moz-transform: rotateZ(360deg);
     -ms-transform: rotateZ(360deg);
@@ -3847,7 +4064,7 @@ body>meting-js, #aplayer {
     width: 70%;
     margin-left: 15px;
     vertical-align: initial !important;
-    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
 .tbCommentBody_bg {
@@ -3873,37 +4090,163 @@ body>meting-js, #aplayer {
     font-weight: initial;
 }
 
-.list {width:100%; }
-.list .out,.list .inc{margin:6px 0;width:90%;}
-.list .out .icon,.list .inc .icon{width:48px;height:48px;}
-.list .icontd {width:48px;}
-.list .out .icontd{display:none;}
-.list .out .topleft,.list .out .topright,.list .out .bottomleft,.list .out .bottomright,.list .inc .topleft,.list .inc .topright,.list .inc .bottomleft,.list .inc .bottomright{background: url(https://files.cnblogs.com/files/bndong/t_o_bubbles.gif) no-repeat;}
-.list .out .top,.list .out .bottom,.list .inc .top,.list .inc .bottom{background:transparent url(https://files.cnblogs.com/files/bndong/t_o_horizontal.gif) repeat-x;}
-.list .out .left,.list .out .right,.list .inc .left,.list .inc .right{background:transparent url(https://files.cnblogs.com/files/bndong/t_o_vertical.gif) repeat-y;}
+.list {
+    width: 100%;
+}
 
-.list .out .topleft{background-position:left top;height:9px;width:18px;}
-.list .out .topright{background-position:-18px top;height:9px;width:11px;}
-.list .out .bottomleft{background-position:left -9px;width:18px;height:12px;}
-.list .out .bottomright{background-position:right -9px;width:11px;height:12px;}
-.list .out .top{background-position:top;font-size:1px;height:9px;}
-.list .out .bottom{background-position:0 -9px;height:12px;}
-.list .out .left{background-position:left;width:18px;}
-.list .out .right{background-position:-18px 0;width:11px;}
+.list .out,
+.list .inc {
+    margin: 6px 0;
+    width: 90%;
+}
 
-.list .inc .topleft{background-position:0 -21px;height:9px;width:18px;}
-.list .inc .topright{background-position:-18px -21px;height:9px;width:11px;}
-.list .inc .bottomleft{background-position:0 bottom;width:18px;height:12px;}
-.list .inc .bottomright{background-position:right bottom;width:11px;height:12px;}
-.list .inc .top{background-position:0 -21px;font-size:1px;height:9px;}
-.list .inc .bottom{background-position:bottom;height:12px;}
-.list .inc .left{background-position:-29px 0;width:18px;}
-.list .inc .right{background-position:right;width:11px;}
+.list .out .icon,
+.list .inc .icon {
+    width: 48px;
+    height: 48px;
+}
 
-.list .inc .conmts{font-size:12px;color:#000;}
-.list .out .conmts{background:#dcdcdc;/*text-shadow:0 1px 0 #eee;*/}
-.list .inc .conmts{background:#c0e668;/*text-shadow:0 1px 0 #dfa;*/}
-.list .out .conmts img{max-height:100px;}
+.list .icontd {
+    width: 48px;
+}
+
+.list .out .icontd {
+    display: none;
+}
+
+.list .out .topleft,
+.list .out .topright,
+.list .out .bottomleft,
+.list .out .bottomright,
+.list .inc .topleft,
+.list .inc .topright,
+.list .inc .bottomleft,
+.list .inc .bottomright {
+    background: url(https://files.cnblogs.com/files/bndong/t_o_bubbles.gif) no-repeat;
+}
+
+.list .out .top,
+.list .out .bottom,
+.list .inc .top,
+.list .inc .bottom {
+    background: transparent url(https://files.cnblogs.com/files/bndong/t_o_horizontal.gif) repeat-x;
+}
+
+.list .out .left,
+.list .out .right,
+.list .inc .left,
+.list .inc .right {
+    background: transparent url(https://files.cnblogs.com/files/bndong/t_o_vertical.gif) repeat-y;
+}
+
+.list .out .topleft {
+    background-position: left top;
+    height: 9px;
+    width: 18px;
+}
+
+.list .out .topright {
+    background-position: -18px top;
+    height: 9px;
+    width: 11px;
+}
+
+.list .out .bottomleft {
+    background-position: left -9px;
+    width: 18px;
+    height: 12px;
+}
+
+.list .out .bottomright {
+    background-position: right -9px;
+    width: 11px;
+    height: 12px;
+}
+
+.list .out .top {
+    background-position: top;
+    font-size: 1px;
+    height: 9px;
+}
+
+.list .out .bottom {
+    background-position: 0 -9px;
+    height: 12px;
+}
+
+.list .out .left {
+    background-position: left;
+    width: 18px;
+}
+
+.list .out .right {
+    background-position: -18px 0;
+    width: 11px;
+}
+
+.list .inc .topleft {
+    background-position: 0 -21px;
+    height: 9px;
+    width: 18px;
+}
+
+.list .inc .topright {
+    background-position: -18px -21px;
+    height: 9px;
+    width: 11px;
+}
+
+.list .inc .bottomleft {
+    background-position: 0 bottom;
+    width: 18px;
+    height: 12px;
+}
+
+.list .inc .bottomright {
+    background-position: right bottom;
+    width: 11px;
+    height: 12px;
+}
+
+.list .inc .top {
+    background-position: 0 -21px;
+    font-size: 1px;
+    height: 9px;
+}
+
+.list .inc .bottom {
+    background-position: bottom;
+    height: 12px;
+}
+
+.list .inc .left {
+    background-position: -29px 0;
+    width: 18px;
+}
+
+.list .inc .right {
+    background-position: right;
+    width: 11px;
+}
+
+.list .inc .conmts {
+    font-size: 12px;
+    color: #000;
+}
+
+.list .out .conmts {
+    background: #dcdcdc;
+    /*text-shadow:0 1px 0 #eee;*/
+}
+
+.list .inc .conmts {
+    background: #c0e668;
+    /*text-shadow:0 1px 0 #dfa;*/
+}
+
+.list .out .conmts img {
+    max-height: 100px;
+}
 
 /* ==========================================================================
    目录
@@ -3915,7 +4258,8 @@ body>meting-js, #aplayer {
 /* ==========================================================================
    Loading
    ========================================================================== */
-a[name=top], #loading{
+a[name=top],
+#loading {
     background-color: rgb(240, 240, 240);
     z-index: 1099;
     position: fixed;
@@ -3954,7 +4298,11 @@ a[name=top], #loading{
     vertical-align: middle;
 }
 
-a#green_channel_digg, a#green_channel_follow, a#green_channel_favorite, a#green_channel_weibo, a#green_channel_wechat {
+a#green_channel_digg,
+a#green_channel_follow,
+a#green_channel_favorite,
+a#green_channel_weibo,
+a#green_channel_wechat {
     text-decoration: none;
     color: #fff;
     margin: auto;
@@ -3976,38 +4324,46 @@ a#green_channel_digg, a#green_channel_follow, a#green_channel_favorite, a#green_
     margin-top: 10px;
 }
 
-a#green_channel_digg:hover, a#green_channel_follow:hover, a#green_channel_favorite:hover, a#green_channel_weibo:hover, a#green_channel_wechat:hover {
+a#green_channel_digg:hover,
+a#green_channel_follow:hover,
+a#green_channel_favorite:hover,
+a#green_channel_weibo:hover,
+a#green_channel_wechat:hover {
     /*box-shadow: 0px 22px 19px -8px rgba(95,193,206, 0.50);*/
-    transform: scale(1.02,1.02);
+    transform: scale(1.02, 1.02);
 }
 
-a#green_channel_digg:active, a#green_channel_follow:active, a#green_channel_favorite:active, a#green_channel_weibo:active, a#green_channel_wechat:active {
+a#green_channel_digg:active,
+a#green_channel_follow:active,
+a#green_channel_favorite:active,
+a#green_channel_weibo:active,
+a#green_channel_wechat:active {
     /*box-shadow: 0px 12px 18px -4px rgba(95,193,206, 0.90);*/
-    transform: scale(0.95,0.95);
+    transform: scale(0.95, 0.95);
     transition: all 0.4s -0.125s;
 }
 
 a#green_channel_digg {
     background-color: #2daebf;
-    box-shadow: 0px 15px 18px -6px rgba(95,193,206, 0.65);
+    box-shadow: 0px 15px 18px -6px rgba(95, 193, 206, 0.65);
 }
 
 a#green_channel_follow {
     background-color: #e33100 !important;
-    box-shadow: 0px 15px 18px -6px rgba(227,49,0, 0.65);
+    box-shadow: 0px 15px 18px -6px rgba(227, 49, 0, 0.65);
     margin-left: 10px;
 }
 
 a#green_channel_favorite {
     background-color: #ffb515;
-    box-shadow: 0px 15px 18px -6px rgba(255,198,75, 0.65);
+    box-shadow: 0px 15px 18px -6px rgba(255, 198, 75, 0.65);
     margin-left: 10px;
 }
 
 a#green_channel_weibo {
     padding: 3px 8px !important;
     background-color: #FF464B !important;
-    box-shadow: 0px 15px 18px -6px rgba(255,70,75, 0.65) !important;
+    box-shadow: 0px 15px 18px -6px rgba(255, 70, 75, 0.65) !important;
     margin-left: 10px;
     width: 35px;
     /*display:none;*/
@@ -4017,7 +4373,7 @@ a#green_channel_weibo {
 a#green_channel_wechat {
     padding: 3px 8px !important;
     background-color: #3CB034 !important;
-    box-shadow: 0px 15px 18px -6px rgba(60,176,52, 0.65) !important;
+    box-shadow: 0px 15px 18px -6px rgba(60, 176, 52, 0.65) !important;
     margin-left: 10px;
     width: 35px;
     /*display:none;*/
@@ -4025,7 +4381,7 @@ a#green_channel_wechat {
 
 #author_profile_info img.author_avatar {
     border-radius: 100%;
-    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.3), 0 1px 3px rgba(0,0,0,0.4);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.4);
     border: 3px solid #f7f7f7;
     padding: 0;
     margin-left: 3px;
@@ -4086,19 +4442,22 @@ a#green_channel_wechat {
     }
 
     #home {
-        width:85%;
-        max-width:100vw;
+        width: 85%;
+        max-width: 100vw;
     }
 
-    .postTitle a:link, .entrylistPosttitle a:link{
+    .postTitle a:link,
+    .entrylistPosttitle a:link {
         font-size: 2.8rem;
     }
 
-    .postDesc, .entrylistItemPostDesc {
+    .postDesc,
+    .entrylistItemPostDesc {
         font-size: 1.3rem;
     }
 
-    .page-title, .entrylistPosttitle {
+    .page-title,
+    .entrylistPosttitle {
         font-size: 4rem;
         letter-spacing: -1px;
     }
@@ -4119,7 +4478,14 @@ a#green_channel_wechat {
         line-height: 1.3em;
     }
 
-    #sideToolbar, #music-box, .scroll-down, #evanyou, body>meting-js, #aplayer, #homeTopCanvas, #notHomeTopCanvas {
+    #sideToolbar,
+    #music-box,
+    .scroll-down,
+    #evanyou,
+    body>meting-js,
+    #aplayer,
+    #homeTopCanvas,
+    #notHomeTopCanvas {
         display: none !important;
     }
 }
@@ -4129,7 +4495,7 @@ a#green_channel_wechat {
    ========================================================================== */
 @media only screen and (max-width: 960px) {
     .main-header {
-        -webkit-box-sizing:border-box;
+        -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         min-height: 240px;
@@ -4137,15 +4503,18 @@ a#green_channel_wechat {
         max-height: 50vh;
         padding: 15% 0;
     }
+
     #home {
-        width:auto;
+        width: auto;
     }
 
     #pageAnimationOffOn {
         display: none;
     }
 
-    #homeTopCanvas, #notHomeTopCanvas, #bgCanvas {
+    #homeTopCanvas,
+    #notHomeTopCanvas,
+    #bgCanvas {
         display: none !important;
     }
 }
@@ -4167,15 +4536,18 @@ a#green_channel_wechat {
         padding-right: 10px;
     }
 
-    .postTitle a:link, .entrylistPosttitle a:link{
+    .postTitle a:link,
+    .entrylistPosttitle a:link {
         font-size: 2.3rem;
     }
 
-    .postCon, .entrylistPostSummary {
+    .postCon,
+    .entrylistPostSummary {
         font-size: 12px;
     }
 
-    .postDesc, .entrylistItemPostDesc {
+    .postDesc,
+    .entrylistItemPostDesc {
         font-size: 12px;
     }
 
@@ -4184,12 +4556,14 @@ a#green_channel_wechat {
         margin: 0 !important;
     }
 
-    .inner{
+    .inner {
         width: auto;
         margin: 2rem auto;
     }
 
-    .page-title, .sb-title, .entrylistPosttitle {
+    .page-title,
+    .sb-title,
+    .entrylistPosttitle {
         font-size: 3rem;
     }
 
@@ -4208,9 +4582,17 @@ a#green_channel_wechat {
         width: 31px !important;
     }
 
-    #pageAnimationOffOn, #sideToolbar, #music-box, .scroll-down, #evanyou, #canvas, body>meting-js, #aplayer,
-    #homeTopCanvas, #notHomeTopCanvas, #bgCanvas
-    {
+    #pageAnimationOffOn,
+    #sideToolbar,
+    #music-box,
+    .scroll-down,
+    #evanyou,
+    #canvas,
+    body>meting-js,
+    #aplayer,
+    #homeTopCanvas,
+    #notHomeTopCanvas,
+    #bgCanvas {
         display: none !important;
     }
 }
